@@ -1,7 +1,7 @@
 <template>
-  todo
-  <ul>
-  </ul>
+  <div>
+    <span>{{data.name}}</span>
+  </div>
 </template>
 
 <style>
@@ -9,5 +9,6 @@
 
 <script>
   export default {
+    props: ["data"]
   }
 </script>

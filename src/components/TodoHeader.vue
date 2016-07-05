@@ -19,8 +19,10 @@
 
 <style lang="sass" scoped>
   ul {
-    width: 500px;
+    width: 100%;
     background-color: #F0F0F0;
+    margin: 0px;
+    padding: 5px;
     li {
       display: table-cell;
       width: 100px;

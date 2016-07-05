@@ -1,11 +1,21 @@
 <template>
-  all
+  <ul>
+    <li v-for="item in items">
+      <item :data="item"></item>
+    </li>
+  </ul>
 </template>
 
 <style>
 </style>
 
 <script>
+  import Item from './Item.vue';
+
   export default {
+    props: ["items"],
+    components: {
+      "item": Item
+    }
   }
 </script>
