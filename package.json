@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/nasum/vue-vue-router-vuex#readme",
   "dependencies": {
-    "vue": "^1.0.25"
+    "vue": "^1.0.25",
+    "vue-router": "^0.7.13"
   },
   "devDependencies": {
     "babel": "^6.5.2",
@@ -29,8 +30,8 @@
     "babel-preset-es2015": "^6.9.0",
     "babel-preset-stage-2": "^6.5.0",
     "babel-runtime": "^6.9.2",
-    "css-loader": "^0.23.1",
     "node-sass": "^3.8.0",
+    "sass-loader": "^4.0.0",
     "vue-html-loader": "^1.2.2",
     "vue-loader": "^8.5.2",
     "vue-style-loader": "^1.0.0",

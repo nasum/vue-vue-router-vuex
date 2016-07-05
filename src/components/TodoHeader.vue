@@ -2,22 +2,35 @@
   <div>
     <ul>
       <li>
-        <a href="#top">TOP</a>
+        <a v-link="{ path: '/all' }">ALL</a>
       </li>
       <li>
-        <a href="#todo">TODO</a>
+        <a v-link="{ path: '/todo' }">TODO</a>
       </li>
       <li>
-        <a href="#doing">DOING</a>
+        <a v-link="{ path: '/doing' }">DOING</a>
       </li>
       <li>
-        <a href="#done">DONE</a>
+        <a v-link="{ path: '/done' }">DONE</a>
       </li>
     </ul>
   </div>
 </template>
 
-<style>
+<style lang="sass" scoped>
+  ul {
+    width: 500px;
+    background-color: #F0F0F0;
+    li {
+      display: table-cell;
+      width: 100px;
+      border: 1px solid #0F0F0F;
+      a {
+        text-decoration: none;
+
+      }
+    }
+  }
 </style>
 
 <script>
