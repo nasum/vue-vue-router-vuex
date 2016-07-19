@@ -1,5 +1,6 @@
 <template>
   <div id="app" class="app">
+    <h1>ToDo List</h1>
     <todo-header></todo-header>
     <div class="contents">
       <add-to-do :text="inputText" :items="items"></add-to-do>
@@ -13,6 +14,7 @@
     width: 500px;
     margin-left: auto;
     margin-right: auto;
+    border: 1px solid #0f0f0f;
   }
 </style>
 

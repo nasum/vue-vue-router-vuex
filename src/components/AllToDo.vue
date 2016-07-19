@@ -6,7 +6,14 @@
   </ul>
 </template>
 
-<style>
+<style lang="sass" scoped>
+  ul {
+    list-style: none;
+    li {
+      list-style: none;
+      margin-left: -20px;
+    }
+  }
 </style>
 
 <script>

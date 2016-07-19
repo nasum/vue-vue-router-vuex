@@ -19,17 +19,28 @@
 
 <style lang="sass" scoped>
   ul {
+    display: table;
+    table-layout: fixed;
+    text-align: center;
     width: 100%;
     background-color: #F0F0F0;
+    list-style: none;
+    padding: 0px;
     margin: 0px;
-    padding: 5px;
+    border-top: 1px solid #0F0F0F;
+    border-bottom: 1px solid #0F0F0F;
     li {
       display: table-cell;
-      width: 100px;
-      border: 1px solid #0F0F0F;
+      width: auto;
+      border-left: 1px solid #0F0F0F;
+
+      &:first-child {
+        border-left: 0px;
+      }
+
       a {
         text-decoration: none;
-
+        color: #0F0F0F;
       }
     }
   }

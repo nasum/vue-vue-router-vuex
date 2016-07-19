@@ -1,7 +1,9 @@
 <template>
   <div>
+    <button @click="changeStatus" >
+      change status
+    </button>
     <span class="name {{data.status}}">{{data.name}}</span>
-    <button @click="changeStatus" >change status</button>
   </div>
 </template>
 
