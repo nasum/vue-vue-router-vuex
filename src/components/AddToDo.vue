@@ -6,6 +6,7 @@
 </template>
 
 <style lang="sass" scoped>
+  
 </style>
 
 <script>
@@ -16,7 +17,7 @@
     methods: {
       addItem: function(){
         this.items.push(new Item(this.text));
-        this.text="";
+        this.text = "";
       }
     }
   }

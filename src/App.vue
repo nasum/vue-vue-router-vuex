@@ -3,7 +3,7 @@
     <todo-header></todo-header>
     <div class="contents">
       <add-to-do :text="inputText" :items="items"></add-to-do>
-      <router-view :items="items"></router-view>
+      <router-view :items.sync="items"></router-view>
     </div>
   </div>
 </template>

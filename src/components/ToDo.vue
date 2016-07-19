@@ -1,6 +1,8 @@
 <template>
-  todo
   <ul>
+    <li v-for="item in items | filterBy 'todo' in 'status' ">
+      <item :data="item"></item>
+    </li>
   </ul>
 </template>
 
@@ -8,6 +10,12 @@
 </style>
 
 <script>
+  import Item from './Item.vue';
+
   export default {
+    props: ["items"],
+    components: {
+      "item": Item
+    }
   }
 </script>
